@@ -1,0 +1,188 @@
+/*
+  STYLE GUIDE STYLING 
+  all code referenced from Paul Brokenshire IAT 339 Lecture Tutorials and Lab Files 
+*/
+body {
+  font-family: sans-serif;
+  padding: 2rem 3em;
+}
+
+section:not([id]) {
+  margin: 0.5em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h4 {
+  margin-bottom: 0.5em;
+}
+
+section p {
+  margin-top: 0;
+  color: blue;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display:inline-block;
+  color: blue;
+}
+
+/* referenced from https://www.w3schools.com/css/css_rwd_videos.asp */
+video{
+  max-width:100%;
+  height:auto;
+}
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  padding: 0.5em 0.75em;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}
+
+.button-nav:hover, .button-nav:focus {
+  font-weight: bold;
+}
+
+.button-intext {
+  font-family: 'Nunito Sans', sans-serif;
+  color: black;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.button-intext:hover, .button-intext:focus {
+  color: black;
+  text-decoration: none;
+}
+
+.button-submit {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  color: black;
+  display: inline-block;
+  padding: 0.5em 2em;
+  background-color: white;
+  border: 1px solid black;
+  text-decoration: none;
+  -webkit-transition: background-color 0.25s ease-out;
+  transition: background-color 0.25s ease-out;
+}
+
+.button-submit:hover, .button-submit:focus {
+  background-color: black;
+  color: white;
+}
+
+input{
+  border:none;
+  border-bottom: 1px solid black;
+}
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+h1{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 55px;
+}
+
+h2{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h3{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+h4{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+p{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size:18px;
+  color: black;
+}
+
+ul{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size:16px;
+  color: black;
+}
+
+ol{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size:16px;
+  color: black;
+}
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+#ul-nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.li-nav{
+  display:inline;
+}
+
+.float-right{
+  float: right;
+}
+
+/* grid */
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+.container .block {
+  height: 400px;  
+}
+
+.column{
+  flex: 1 1 auto;
+}
+
+.container .block:nth-of-type(even) {
+  background-color: #333;
+}
+
+.container .block:nth-of-type(odd) {
+  background-color: #AAA;
+}
+
+@media(min-width: 80em) {
+  .product-listing{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<!-- all code referenced from Paul Brokenshire IAT 339 Lecture Tutorials and Lab Files -->
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,800&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <h1>Style Guide</h1>
+
+    <nav>
+      
+      <p>
+        Go to:
+        <a href="#interactive_elements">Interactive Elements</a>,
+        <a href="#text_elements">Text Elements</a>,
+        <a href="#combined_elements">Combined Elements</a>,
+        <a href="wireframes.html">Wireframes</a>,
+        <a href="citation.html">Citations</a>,
+      </p>
+
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button-nav"&gt;NAV BUTTON&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">NAV BUTTON</a>
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+
+        <h4>CSS selector:</h4>
+        <p>.button-intext</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button-intext"&gt;In-text link&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-intext" href="#">In-text Link</a>
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+
+        <h4>CSS selector:</h4>
+        <p>.button-submit</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button-submit"&gt;SUBMIT&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-submit" href="#">SUBMIT</a>
+      </section>
+
+      <!-- referenced from https://www.w3schools.com/html/html_forms.asp-->
+      <section>
+        <h2>Text Input Field</h2>
+
+        <h4>CSS selector:</h4>
+        <p>input</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;input class="input-text" type="text"&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <input class="input-text" type="text">
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+
+        <h4>CSS selector:</h4>
+        <p>h1</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h1>Heading 1</h1>
+
+        <h4>CSS selector:</h4>
+        <p>h2</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h2&gt;HEADING 2&lt;/h2&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h2>HEADING 2</h2>
+
+        <h4>CSS Selector</h4>
+        <p>h4</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h3&gt;HEADING 3&lt;/h3&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h3>HEADING 3</h3>
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+
+        <h4>CSS Selector</h4>
+        <p>p</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;p&gt;This is a sample paragraph.&lt;/p&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <p>This is a sample paragraph.</p>
+
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+
+        <h4>CSS Selector</h4>
+        <p>ul</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;ul&gt;
+        <br>&lt;li&gt;Item 1&lt;/li&gt;
+        <br>&lt;li&gt;Item 2&lt;/li&gt;
+        <br>&lt;li&gt;Item 3&lt;/li&gt;
+        <br>&lt;/ul&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+
+        <h4>CSS Selector</h4>
+        <p>ol</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;ol&gt;
+        <br>&lt;li&gt;Item 1&lt;/li&gt;
+        <br>&lt;li&gt;Item 2&lt;/li&gt;
+        <br>&lt;li&gt;Item 3&lt;/li&gt;
+        <br>&lt;/ol&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <ol>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+        <!-- referenced from https://www.w3schools.com/css/css_navbar.asp -->
+
+        <h4>CSS Selector</h4>
+        <p>#ul-nav, .li-nav, .float-right</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;div&gt;
+        <br>&lt;nav&gt;
+        <br>&lt;ul id="ul-nav"&gt;
+        <br>&lt;li class="li-nav"&gt;&lt;a class="button-nav" href="#"&gt;LOGO&lt;/a&gt;&lt;/li&gt;
+        <br>&lt;li class="li-nav"&gt;&lt;a class="button-nav" href="#"&gt;EYEWEAR&lt;/a&gt;&lt;/li&gt;
+        <br>&lt;li class="li-nav"&gt;&lt;a class="button-nav" href="#"&gt;SUNGLASSES&lt;/a&gt;&lt;/li&gt;
+        <br>&lt;li class="li-nav float-right"&gt;&lt;a class="button-nav" href="#"&gt;BAG&lt;/a&gt;&lt;/li&gt;
+        <br>&lt;li class="li-nav float-right"&gt;&lt;a class="button-nav" href="#"&gt;ACCOUNT&lt;/a&gt;&lt;/li&gt;
+        <br>&lt;/ul&gt;
+        <br>&lt;/nav&gt;
+        <br>&lt;/div&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <div>
+          <nav>
+            <ul id="ul-nav">
+              <li class="li-nav"><a class="button-nav" href="#">LOGO</a></li>
+              <li class="li-nav"><a class="button-nav" href="#">EYEWEAR</a></li>
+              <li class="li-nav"><a class="button-nav" href="#">SUNGLASSES</a></li>
+              <li class="li-nav float-right"><a class="button-nav" href="#">BAG</a></li>
+              <li class="li-nav float-right"><a class="button-nav" href="#">ACCOUNT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+
+        <h4>CSS Selector</h4>
+        <p>.container, .block, .column, .product-listing</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;div class="product-listing container"&gt;
+        <br>&lt;div class="block column"&gt;&lt;/div&gt;
+        <br>&lt;div class="block column"&gt;&lt;/div&gt;
+        <br>&lt;div class="block column"&gt;&lt;/div&gt;
+        <br>&lt;/div&gt;</code>
+
+        <h4>Rendered element:</h4>
+          <div class="product-listing container">
+            <div class="block column"></div>
+            <div class="block column"></div>
+            <div class="block column"></div>
+          </div>
+      </section>
+    </section>
+
+  </body>
+</html>
