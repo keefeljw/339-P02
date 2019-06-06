@@ -19,14 +19,14 @@ section h4 {
 
 section p {
   margin-top: 0;
-  color: blue;
+  color: gray;
 }
 
 section code {
   background-color: #EEE;
   padding: 0.5em 0.75em;
   display:inline-block;
-  color: blue;
+  color: gray;
 }
 
 /* referenced from https://www.w3schools.com/css/css_rwd_videos.asp */
@@ -104,14 +104,21 @@ h1{
 
 h2{
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
+  margin-bottom: 0;
+}
+
+.h3-centered{
+  text-align: center;
+  vertical-align: middle;
 }
 
 h3{
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: normal;
+  margin-top: 0;
 }
 
 h4{
@@ -157,32 +164,4 @@ ol{
 
 .float-right{
   float: right;
-}
-
-/* grid */
-*, *::after, *::before{
-  box-sizing: border-box;
-}
-
-.container .block {
-  height: 400px;  
-}
-
-.column{
-  flex: 1 1 auto;
-}
-
-.container .block:nth-of-type(even) {
-  background-color: #333;
-}
-
-.container .block:nth-of-type(odd) {
-  background-color: #AAA;
-}
-
-@media(min-width: 80em) {
-  .product-listing{
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
