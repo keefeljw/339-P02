@@ -1,6 +1,6 @@
 /*
-  STYLE GUIDE STYLING 
-  all code referenced from Paul Brokenshire IAT 339 Lecture Tutorials and Lab Files 
+  STYLE GUIDE STYLING
+  all code referenced from Paul Brokenshire IAT 339 Lecture Tutorials and Lab Files
 */
 body {
   font-family: sans-serif;
@@ -40,7 +40,7 @@ img {
   height:auto;
 }
 
-/* 
+/*
   INTERACTIVE ELEMENTS -------------------
 */
 
@@ -93,7 +93,7 @@ input{
   border-bottom: 1px solid black;
 }
 
-/* 
+/*
   TEXT ELEMENTS -------------------
 */
 
@@ -141,7 +141,7 @@ ol{
 
 
 
-/* 
+/*
   COMBINED ELEMENTS -------------------
 */
 
@@ -159,19 +159,40 @@ ol{
   float: right;
 }
 
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #d4b9a7; /* background color */
+  color: white; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  font-family: heebo;
+}
+
+.vertical-menu a:hover {
+  background-color: #a08870; /* background on mouse-over */
+}
+/*
+Text Input Field Style Code Reference:
+https://www.w3schools.com/howto/howto_css_vertical_menu.asp
+*/
+
 /* grid */
 *, *::after, *::before{
   box-sizing: border-box;
 }
 
 .container .block {
-  height: 400px;  
+  height: 400px;
 }
 
 .column{
   flex: 1 1 auto;
 }
-
+/*
 .container .block:nth-of-type(even) {
   background-color: #333;
 }
@@ -179,9 +200,28 @@ ol{
 .container .block:nth-of-type(odd) {
   background-color: #AAA;
 }
+*/
+.box-1{
+  background-color:#FFFFFF;
+  border-style: solid;
+  border-color: #F1F1F1;
+  border-width: 2px;
+}
+.box-2{
+  background-color:#F1F1F1;
+}
+.box-3{
+  background-color: #EAEAEA;
+}
+.box-4{
+  background-color: #676767;
+}
+.box-5{
+  background-color: #131313;
+}
 
 @media(min-width: 80em) {
-  .product-listing{
+  .display{
     display: flex;
     flex-wrap: wrap;
   }
