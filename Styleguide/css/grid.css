@@ -34,12 +34,12 @@
 
  .sgrid-col-1of2{
  	flex-grow: 1;
- 	flex-basis: 30%;
+ 	flex-basis: 33.3333%;
  }
 
  .sgrid-col-2of2{
  	flex-grow: 1;
- 	flex-basis: 70%;
+ 	flex-basis: 66.6666%;
  }
 
 .container .block:nth-of-type(even) {
@@ -56,10 +56,10 @@
   }
 
   .sgrid-col-1of2{
-  	flex-basis: 30%;
+  	flex-basis: 33.3333%;
   }
 
   .sgrid-col-2of2{
-  	flex-basis: 70%;
+  	flex-basis: 66.666%;
   }
 }
