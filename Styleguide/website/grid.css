@@ -22,6 +22,11 @@
   flex-basis: 100%;
 }
 
+.grid-col-1of4{
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
 .container .block{
 	height: 200px;
 	border: 1px solid black;
@@ -53,6 +58,10 @@
 @media(min-width: 60em) {
   .grid-col-1of3{
   	flex-basis: 33.3333%;
+  }
+
+  .grid-col-1of4{
+    flex-basis: 25%;
   }
 
   .sgrid-col-1of2{
