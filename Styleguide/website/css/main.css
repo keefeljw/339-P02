@@ -37,10 +37,22 @@ video{
   height:auto;
 }
 
-img {
+.glassesphoto img {
   max-width:100%;
   height:auto;
+  opacity:1;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+.select{
+  position:relative;
+  visibility: hidden;
+}
+.glassesphoto img:hover{
+  opacity:0.5;
+}
+
+
 
 /*
   INTERACTIVE ELEMENTS -------------------
@@ -107,9 +119,8 @@ img {
   margin-top: 10em;
 }
 
-.container-homepage{
-  position: relative;
-  top: 25rem;
+.grid{
+  margin-left: ;
 }
 
 input{
@@ -124,7 +135,6 @@ input{
 h1{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 55px;
-  margin-top: 0;
 }
 
 h2{
@@ -139,7 +149,6 @@ h3{
   font-size: 20px;
   font-weight: normal;
   margin-top: 0;
-  margin-bottom: 0;
 }
 
 .h3-centered{
@@ -195,8 +204,6 @@ ol{
 .float-right{
   float: right;
 }
-
-<<<<<<< HEAD
 
 .color_container .color_block {
 =======
