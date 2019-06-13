@@ -119,8 +119,15 @@ video{
   margin-top: 10em;
 }
 
+/*
 .grid{
   margin-left: ;
+}
+*/
+
+.container-homepage{
+  position: relative;
+  top: 25rem;
 }
 
 input{
@@ -135,6 +142,7 @@ input{
 h1{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 55px;
+  margin-top: 0;
 }
 
 h2{
@@ -149,6 +157,7 @@ h3{
   font-size: 20px;
   font-weight: normal;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .h3-centered{
@@ -185,8 +194,6 @@ ol{
 }
 
 
-
-
 /*
   COMBINED ELEMENTS -------------------
 */
@@ -205,8 +212,6 @@ ol{
   float: right;
 }
 
-.color_container .color_block {
-=======
 .vertical-menu {
   width: 200px; /* Set a width if you like */
 }
