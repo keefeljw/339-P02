@@ -37,10 +37,22 @@ video{
   height:auto;
 }
 
-img {
+.glassesphoto img {
   max-width:100%;
   height:auto;
+  opacity:1;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+.select{
+  position:relative;
+  visibility: hidden;
+}
+.glassesphoto img:hover{
+  opacity:0.5;
+}
+
+
 
 /*
   INTERACTIVE ELEMENTS -------------------
@@ -192,8 +204,6 @@ ol{
 .float-right{
   float: right;
 }
-
-<<<<<<< HEAD
 
 .color_container .color_block {
 =======
