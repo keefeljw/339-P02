@@ -135,6 +135,10 @@ p{
   color: black;
 }
 
+.logofont{
+  font-weight: bold;
+}
+
 ul{
   font-family: 'Nunito Sans', sans-serif;
   font-size:16px;
