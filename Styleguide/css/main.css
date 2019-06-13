@@ -4,9 +4,7 @@
 */
 body {
   font-family: sans-serif;
-  /*padding: 2rem 3em;*/
-  padding: 1em 1em;
-  margin-top: 0em;
+  padding: 2rem 3em;
 }
 
 section:not([id]) {
@@ -21,14 +19,14 @@ section h4 {
 
 section p {
   margin-top: 0;
-  color: gray;
+  color: blue;
 }
 
 section code {
   background-color: #EEE;
   padding: 0.5em 0.75em;
   display:inline-block;
-  color: gray;
+  color: blue;
 }
 
 /* referenced from https://www.w3schools.com/css/css_rwd_videos.asp */
@@ -106,21 +104,14 @@ h1{
 
 h2{
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
-  margin-bottom: 0;
 }
 
 h3{
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: normal;
-  margin-top: 0;
-}
-
-.h3-centered{
-  text-align: center;
-  vertical-align: middle;
 }
 
 h4{
@@ -133,10 +124,6 @@ p{
   font-family: 'Nunito Sans', sans-serif;
   font-size:18px;
   color: black;
-}
-
-.logofont{
-  font-weight: bold;
 }
 
 ul{
@@ -172,10 +159,6 @@ ol{
   float: right;
 }
 
-<<<<<<< HEAD
-
-.color_container .color_block {
-=======
 .vertical-menu {
   width: 200px; /* Set a width if you like */
 }
@@ -203,37 +186,19 @@ https://www.w3schools.com/howto/howto_css_vertical_menu.asp
 }
 
 .container .block {
->>>>>>> branch1
   height: 400px;
 }
 
-.color_column{
+.column{
   flex: 1 1 auto;
 }
-<<<<<<< HEAD
-
-.box-1{
-  background-color:#FFFFFF;
-  border-style: solid;
-  border-color: #F1F1F1;
-  border-width: 2px;
-=======
 /*
 .container .block:nth-of-type(even) {
   background-color: #333;
->>>>>>> branch1
 }
-.box-2{
-  background-color:#F1F1F1;
-}
-.box-3{
-  background-color: #EAEAEA;
-}
-.box-4{
-  background-color: #676767;
-}
-.box-5{
-  background-color: #131313;
+
+.container .block:nth-of-type(odd) {
+  background-color: #AAA;
 }
 */
 .box-1{
@@ -256,11 +221,7 @@ https://www.w3schools.com/howto/howto_css_vertical_menu.asp
 }
 
 @media(min-width: 80em) {
-<<<<<<< HEAD
-  .boxs{
-=======
   .display{
->>>>>>> branch1
     display: flex;
     flex-wrap: wrap;
   }
