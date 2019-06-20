@@ -6,6 +6,9 @@
 	display:flex;
 	flex-wrap:wrap;
   margin-top: 10rem;
+  align-items: center;
+  grid-column-gap: 10px;
+
 }
 
 .grid-col-1of3{
