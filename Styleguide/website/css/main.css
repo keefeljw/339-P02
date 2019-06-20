@@ -31,6 +31,10 @@ section code {
   color: gray;
 }
 
+.wrapper{
+  display:flex;
+}
+
 /* referenced from https://www.w3schools.com/css/css_rwd_videos.asp */
 video{
   max-width:100%;
@@ -229,4 +233,14 @@ ol{
 .product-description{
   position: relative;
   bottom: 0;
+}
+
+.glassesphoto img{
+  opacity:1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.glassesphoto img:hover{
+  opacity:0.5;
 }

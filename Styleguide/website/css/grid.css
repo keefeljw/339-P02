@@ -7,8 +7,8 @@
 	flex-wrap:wrap;
   margin-top: 10rem;
   align-items: center;
-  grid-column-gap: 10px;
-
+  border-width:30px;
+  border-color: black;
 }
 
 .grid{
