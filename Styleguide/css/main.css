@@ -220,13 +220,13 @@ https://www.w3schools.com/howto/howto_css_vertical_menu.asp
   background-color: #131313;
 }
 
-.glassesphoto a{
+.a-product img{
   opacity:1;
   -webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 
-.glassesphoto a:hover{
+.a-product img:hover{
   opacity:0.5;
 }
 
