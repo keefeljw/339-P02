@@ -233,6 +233,7 @@ ol{
 .product-description{
   position: relative;
   bottom: 0;
+<<<<<<< HEAD
 }
 
 .glassesphoto img{
@@ -243,4 +244,6 @@ ol{
 
 .glassesphoto img:hover{
   opacity:0.5;
+=======
+>>>>>>> master
 }
