@@ -37,22 +37,14 @@ video{
   height:auto;
 }
 
-.glassesphoto img {
+#home_video{
+  
+}
+
+img {
   max-width:100%;
   height:auto;
-  opacity:1;
-  -webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
 }
-.select{
-  position:relative;
-  visibility: hidden;
-}
-.glassesphoto img:hover{
-  opacity:0.5;
-}
-
-
 
 /*
   INTERACTIVE ELEMENTS -------------------
@@ -61,8 +53,8 @@ video{
 /* Styling for the navigation button */
 .button-nav {
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 16px;
-  padding: 0.5em 0.75em;
+  font-size: 12px;
+  padding: 1em 0.75em;
   display: inline-block;
   color: black;
   text-decoration: none;
@@ -102,28 +94,9 @@ video{
   color: white;
 }
 
-.button-sortfilter {
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 14px;
-  color: black;
-  display: inline-block;
-  padding-right: 15em;
-  background-color: white;
-  border-bottom: 1px solid black;
-  text-decoration: none;
-  -webkit-transition: background-color 0.25s ease-out;
-  transition: background-color 0.25s ease-out;
-}
-
 .filter{
   margin-top: 10em;
 }
-
-/*
-.grid{
-  margin-left: ;
-}
-*/
 
 .container-homepage{
   position: relative;
@@ -141,20 +114,20 @@ input{
 
 h1{
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 55px;
+  font-size: 45px;
   margin-top: 0;
 }
 
 h2{
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 0;
 }
 
 h3{
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0;
@@ -178,104 +151,60 @@ p{
 }
 
 .logofont{
+  font-size: 24px;
   font-weight: bold;
 }
 
 ul{
   font-family: 'Nunito Sans', sans-serif;
-  font-size:16px;
+  font-size:10px;
   color: black;
 }
 
 ol{
   font-family: 'Nunito Sans', sans-serif;
-  font-size:16px;
+  font-size:12px;
   color: black;
 }
+
+.a-product{
+  color: black;
+  text-decoration: none;
+}
+
 
 
 /*
   COMBINED ELEMENTS -------------------
 */
 
-#ul-nav{
+#ul-nav-rightbar{
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: absolute;
+  left:5px;
+  top:0;
+}
+
+#ul-nav-leftbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right:5px;
+  top:0;
+}
+
+#ul-nav-leftbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right:5px;
+  top:0;
 }
 
 .li-nav{
   display:inline;
-}
-
-.float-right{
-  float: right;
-}
-
-.vertical-menu {
-  width: 200px; /* Set a width if you like */
-}
-
-.vertical-menu a {
-  background-color: #d4b9a7; /* background color */
-  color: white; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
-  font-family: heebo;
-}
-
-.vertical-menu a:hover {
-  background-color: #a08870; /* background on mouse-over */
-}
-/*
-Text Input Field Style Code Reference:
-https://www.w3schools.com/howto/howto_css_vertical_menu.asp
-*/
-
-/* grid */
-*, *::after, *::before{
-  box-sizing: border-box;
-}
-
-.container .block {
-  height: 400px;
-}
-
-.column{
-  flex: 1 1 auto;
-}
-/*
-.container .block:nth-of-type(even) {
-  background-color: #333;
-}
-
-.container .block:nth-of-type(odd) {
-  background-color: #AAA;
-}
-*/
-.box-1{
-  background-color:#FFFFFF;
-  border-style: solid;
-  border-color: #F1F1F1;
-  border-width: 2px;
-}
-.box-2{
-  background-color:#F1F1F1;
-}
-.box-3{
-  background-color: #EAEAEA;
-}
-.box-4{
-  background-color: #676767;
-}
-.box-5{
-  background-color: #131313;
-}
-
-@media(min-width: 80em) {
-  .display{
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
